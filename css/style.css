@@ -1,0 +1,127 @@
+body {
+	background-color: black;
+	color: #fff;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.titulo {
+	font-size: 18px;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+.acordeon .itens {
+	background-color: rgb(43, 42, 42);
+	width: 1000px;
+	height: 100%;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.acordeon .itens .item .pergunta {
+	padding: 25px 20px;
+	font-size: 17px;
+	font-weight: 500;
+	transition: 0.3s ease-in-out;
+	border-bottom: 1px solid #000000 ;
+}
+.acordeon .itens .item .pergunta:hover {
+	background-color: rgb(88, 88, 88);
+}
+.acordeon .botao-pergunta {
+	font-size: 50px;
+	position: absolute;
+	right: 170px;
+	top: 90px;
+}
+
+ .botao1 {
+	background-color: #fff;
+	position: absolute;
+	display: block;
+	width: 3px;
+	height: 28px;
+	top: 97px;
+	left: 1100px;
+	transition: 0.5s ease-in-out;
+	cursor: pointer;
+}
+.botao1:before {
+	background-color: #fff;
+	content: "";
+	display: block;
+	width: 30px;
+	height: 3px;
+	position: absolute;
+	transition: 0.2s ease-in-out;
+	top: 13px;
+	left: -13px;
+} 
+
+.acordeon .itens .item .resposta {
+	display: none;
+	font-size: 17px;
+	padding: 15px 20px;
+	font-weight: 500;
+}
+
+.acordeon .itens li {
+	border-bottom: 5px solid #000000;
+}
+.acordeon .itens li:last-child {
+	border-bottom: none;
+}
+.informe-email {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	font-weight: 500;
+}
+.footer {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+.footer .campo-email {
+	width: 300px;
+	height: 40px;
+	background-color: rgb(58, 58, 58);
+	border: 1px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+}
+::placeholder {
+	padding-left: 15px;
+	color: #fff;
+	font-size: 12px;
+}
+
+.footer .btn {
+	padding: 10px;
+	color: #fff;
+	background-color: red;
+	font-weight: 700;
+	border-radius: 5px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+.footer .btn:hover {
+	background-color: #b31717;
+}
+
+.btn-pergunta {
+	display: none;
+}
+.acordeon input:checked ~ label .botao1 {
+	transform: rotate(45deg);
+}
+
+.acordeon .itens .item.ativo .resposta {
+	display: block;
+}
