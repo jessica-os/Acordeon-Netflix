@@ -11,3 +11,6 @@ Ao clicar na próxima pergunta, a resposta anterior deve fechar.
 ### Veja como ficou:
 <br>
 <img src="./src/imagens/gif netflix.gif" alt="animação da tela acordeon netflix">
+<br>
+
+ [Clique aqui!](https://jessica-os.github.io/Acordeon-Netflix/) para ver o projeto pronto.
