@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: #000;
 	color: #fff;
 	height: 100vh;
 	display: flex;
@@ -14,7 +14,7 @@ body {
 	margin-top: 15px;
 }
 .acordeon .itens {
-	background-color: rgb(43, 42, 42);
+	background-color: rgb(35, 35, 35);
 	width: 1000px;
 	height: 100%;
 	margin-top: 20px;
@@ -26,40 +26,17 @@ body {
 	font-size: 17px;
 	font-weight: 500;
 	transition: 0.3s ease-in-out;
-	border-bottom: 1px solid #000000 ;
+	border-bottom: 1px solid #000;
+	background-image: url(../src/imagens/icons8-soma-50.png);
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: top 22px right 20px;
+	
 }
+
 .acordeon .itens .item .pergunta:hover {
 	background-color: rgb(88, 88, 88);
 }
-.acordeon .botao-pergunta {
-	font-size: 50px;
-	position: absolute;
-	right: 170px;
-	top: 90px;
-}
-
- .botao1 {
-	background-color: #fff;
-	position: absolute;
-	display: block;
-	width: 3px;
-	height: 28px;
-	top: 97px;
-	left: 1100px;
-	transition: 0.5s ease-in-out;
-	cursor: pointer;
-}
-.botao1:before {
-	background-color: #fff;
-	content: "";
-	display: block;
-	width: 30px;
-	height: 3px;
-	position: absolute;
-	transition: 0.2s ease-in-out;
-	top: 13px;
-	left: -13px;
-} 
 
 .acordeon .itens .item .resposta {
 	display: none;
@@ -69,11 +46,17 @@ body {
 }
 
 .acordeon .itens li {
-	border-bottom: 5px solid #000000;
+	border-bottom: 5px solid #000;
 }
 .acordeon .itens li:last-child {
 	border-bottom: none;
 }
+
+.acordeon .itens .item.ativo .resposta {
+	display: block;
+}
+
+
 .informe-email {
 	display: flex;
 	justify-content: center;
@@ -113,15 +96,4 @@ body {
 }
 .footer .btn:hover {
 	background-color: #b31717;
-}
-
-.btn-pergunta {
-	display: none;
-}
-.acordeon input:checked ~ label .botao1 {
-	transform: rotate(45deg);
-}
-
-.acordeon .itens .item.ativo .resposta {
-	display: block;
 }
