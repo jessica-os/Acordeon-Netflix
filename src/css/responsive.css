@@ -67,10 +67,10 @@
 		padding: 6px;
 		font-size: 15px;
 	}
-    .informe-email {
+	.informe-email {
 		font-size: 14px;
 		text-align: center;
-        margin: 10px;
+		margin: 10px;
 	}
 }
 @media (max-width: 370px) {

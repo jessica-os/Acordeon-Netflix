@@ -6,7 +6,5 @@ perguntasERespostas.forEach(function (item) {
 		if (itemAtivoAtual) {
 			itemAtivoAtual.classList.remove("ativo");
 		}
-
-		
 	});
 });

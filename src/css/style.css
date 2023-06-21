@@ -7,7 +7,6 @@ body {
 	align-items: center;
 }
 
-
 .titulo {
 	font-size: 18px;
 	font-weight: 700;
@@ -15,7 +14,7 @@ body {
 	justify-content: center;
 	margin-top: 15px;
 }
-.acordeon{
+.acordeon {
 	justify-content: center;
 	display: flex;
 }
@@ -24,8 +23,6 @@ body {
 	width: 900px;
 	margin-top: 20px;
 	cursor: pointer;
-	
-	
 }
 
 .acordeon .itens .item .pergunta {
