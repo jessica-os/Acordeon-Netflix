@@ -1,0 +1,84 @@
+@media (max-width: 1000px) {
+	.acordeon .itens {
+		width: 750px;
+	}
+}
+@media (max-width: 840px) {
+	.acordeon .itens {
+		width: 600px;
+	}
+}
+@media (max-width: 688px) {
+	.titulo {
+		font-size: 16px;
+		margin-top: 20px;
+	}
+
+	.acordeon .itens {
+		width: 450px;
+	}
+}
+@media (max-width: 580px) {
+	.titulo {
+		font-size: 14px;
+		margin-top: 30px;
+	}
+	.informe-email {
+		font-size: 14px;
+		text-align: center;
+	}
+}
+@media (max-width: 540px) {
+	.titulo {
+		font-size: 12px;
+	}
+	.acordeon .itens {
+		width: 380px;
+	}
+	.acordeon .itens .item .pergunta::after {
+		right: 20px;
+	}
+	.acordeon .itens .item .pergunta {
+		font-size: 15px;
+	}
+	.acordeon .itens .item .resposta {
+		font-size: 13px;
+	}
+}
+@media (max-width: 450px) {
+	.titulo {
+		font-size: 10px;
+	}
+	.acordeon .itens {
+		width: 320px;
+	}
+	.acordeon .itens .item .pergunta::after {
+		right: 4px;
+	}
+	.acordeon .itens .item .pergunta {
+		font-size: 13px;
+	}
+
+	.footer .campo-email {
+		width: 200px;
+		height: 30px;
+	}
+	.footer .btn {
+		padding: 6px;
+		font-size: 15px;
+	}
+    .informe-email {
+		font-size: 14px;
+		text-align: center;
+        margin: 10px;
+	}
+}
+@media (max-width: 370px) {
+	.acordeon .itens {
+		width: 280px;
+	}
+
+	.acordeon .itens .item .pergunta {
+		font-size: 11px;
+	}
+}

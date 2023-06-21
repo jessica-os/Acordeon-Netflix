@@ -4,7 +4,9 @@ body {
 	height: 100vh;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
+
 
 .titulo {
 	font-size: 18px;
@@ -13,12 +15,17 @@ body {
 	justify-content: center;
 	margin-top: 15px;
 }
+.acordeon{
+	justify-content: center;
+	display: flex;
+}
 .acordeon .itens {
 	background-color: rgb(35, 35, 35);
-	width: 1000px;
-	height: 100%;
+	width: 900px;
 	margin-top: 20px;
 	cursor: pointer;
+	
+	
 }
 
 .acordeon .itens .item .pergunta {
